@@ -25,7 +25,7 @@ chunks = text_splitter.split_documents(all_docs)
 
 # 🔗 Embed and store into vector DB
 print("🧠 Creating embeddings...")
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+embeddings = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-large")
 db = Chroma.from_documents(chunks, embedding=embeddings, persist_directory="db")
 db.persist()
 
