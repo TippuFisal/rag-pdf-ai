@@ -25,7 +25,7 @@ RAG_AI_PROJECT/
 You can download it from: https://www.python.org/downloads/
 
 To verify:
-```bash
+
 python3 --version
 
 ✅ 2. Install Ollama (for running local LLMs like Mistral)
@@ -55,7 +55,7 @@ pip install langchain fastapi uvicorn chromadb pypdf2 sentence-transformers
 pip freeze > requirements.txt
 
 
-### 🚀 How to Run the App (After Shutdown or Anytime)
+## 🚀 How to Run the App (After Shutdown or Anytime)
 
 
 🔹 Step 1: Start Ollama in one terminal
