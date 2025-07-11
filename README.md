@@ -55,7 +55,7 @@ pip install langchain fastapi uvicorn chromadb pypdf2 sentence-transformers
 pip freeze > requirements.txt
 
 
-### 🚀 How to Run the App (After Shutdown or Anytime)
+## 🚀 How to Run the App (After Shutdown or Anytime)
 
 
 🔹 Step 1: Start Ollama in one terminal
